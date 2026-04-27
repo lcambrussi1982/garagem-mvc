@@ -1,33 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
     <title>Garagem MVC</title>
 </head>
+
 <body>
     <div class="app-shell">
         <aside class="sidebar">
             <div class="brand-icon">G</div>
-                <div>
-                    <strong>Garagem MVC</strong>
-                    <span>Controle de estacionamento</span>
-                </div>
+            <div>
+                <strong>Garagem MVC</strong>
+                <span>Controle de estacionamento</span>
             </div>
-           <!--Barra de navegação-->
-           <nav class="menu" aria-label="Menu Principal">
-             <button class="menu-item active" data-section="dashboard">Dashboard</button>
-             <button class="menu-item" data-section="clientes">Clientes</button>
-             <button class="menu-item" data-section="veiculos">Veiculos</button>
-             <button class="menu-item" data-section="vagas">Vagas</button>
-             <button class="menu-item" data-section="movitentacoes">Movimentações</button>
-           </nav>
+    </div>
+    <!--Barra de navegação-->
+    <nav class="menu" aria-label="Menu Principal">
+        <button class="menu-item active" data-section="dashboard">Dashboard</button>
+        <button class="menu-item" data-section="clientes">Clientes</button>
+        <button class="menu-item" data-section="veiculos">Veiculos</button>
+        <button class="menu-item" data-section="vagas">Vagas</button>
+        <button class="menu-item" data-section="movitentacoes">Movimentações</button>
+    </nav>
+
+    <div class="sidebar-footer">
+        <span id="clock">--:--</span>
+        <small>Node.js + mysql + MVC</small>
+    </div>
 
 
 
-        </aside>
+    </aside>
     </div>
 
 </body>
+
 </html>
